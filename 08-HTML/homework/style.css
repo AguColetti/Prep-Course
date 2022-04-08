@@ -24,6 +24,30 @@ header h1 {
     margin: 0 auto;
 }
 
+#spanId {
+    transition: all box-shadown 0.3s ease;
+    background-color: #efefef;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#spanId:hover {
+    box-shadow: 0 0.1rem 0.7rem rgba(0,0,0,0.3);
+}
+
+section div a {
+    transition: color 0.3s ease;
+    color: rgb(13, 134, 240);
+    text-decoration: none;
+}
+
+section div a:hover {
+    color: cornflowerblue;
+}
+
 section article {
     transition: all box-shadown 0.3s ease;
     background-color: #efefef;
@@ -35,16 +59,6 @@ section article {
 
 section article:hover {
     box-shadow: 0 0.1rem 0.7rem rgba(0,0,0,0.3);
-}
-
-#spanId {
-    background-color: #efefef;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 2rem 2rem;
-    color: rgb(13, 134, 240);
-    display: flex;
-    justify-content: center;
 }
 
 section article h2, section article p {
